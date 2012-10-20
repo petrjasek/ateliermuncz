@@ -1,0 +1,51 @@
+body {
+    color: #fff;
+    background-color: #000;
+    position: relative;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 8px;
+    font-weight: normal;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul > li {
+    list-style-type: none;
+    margin: 5px 0 0;
+    padding: 0;
+}
+
+aside {
+    padding: 5px;
+    background-color: #000;
+}
+
+.facebook {
+    display: block;
+    margin: 5px 0;
+    padding: 5px;
+    color: #fff;
+    background-color: #08c;
+    font-size: 2em;
+    text-align: center;
+}
+
+.facebook:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+@media (min-width: 768px) {
+    aside {
+        position: fixed;
+        top: 5px;
+        left: 5px;
+        opacity: 0.8;
+    }
+}
